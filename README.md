@@ -20,7 +20,7 @@ A simple load-and-fire routine looks like this in C++:
 ... code here
 ```
 
-We also provides an [example script]() to test the famous [CMU OpenFace](https://github.com/cmusatyalab/openface) model. This network transfers a 3*96*96 face image into a 128*1 feature vector, representing the identity of the person.
+We also provides an [example script]() to test the famous [CMU OpenFace](https://github.com/cmusatyalab/openface) model. This network transfers a 3 * 96 * 96 face image into a 128 * 1 feature vector, representing the identity of the person.
 
 # Performance
 This wrapper is **about 2x faster** than Torch's lua implementation in CPU mode.
