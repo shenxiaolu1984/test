@@ -10,6 +10,8 @@ Using this library, you can:
 
 **All in C++, without touching lua.**
 
+Pretty handy when you want to distribute an off-the-shelf Torch model.
+
 # Install
 
 
@@ -24,6 +26,7 @@ We also provides an [example script]() to test the famous [CMU OpenFace](https:/
 
 # Performance
 This wrapper is **about 2x faster** than Torch's lua implementation in CPU mode.
+
 |model|torch|cpp-torch|
 |----|----|----|
 |nn4.small2|?|?|
